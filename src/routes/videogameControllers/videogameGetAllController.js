@@ -1,4 +1,4 @@
-const { Videogame, Genre } = require('../../db.js');
+const { Videogame, Genre } = require('../../db');
 const { Op } = require('sequelize');
 
 console.log('por entrar a videoRouter');

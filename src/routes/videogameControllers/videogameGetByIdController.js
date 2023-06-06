@@ -1,8 +1,7 @@
-const { get } = require('../../app.js');
 const { Videogame, Genre } = require('../../db.js');
 
 const getVideogameById = async(req,res)=>{
-    console.log('idVideogame funciona en videoRouter');
+  
     try{
       const {idVideogame} = req.params;
       console.log('idVideogame.length en videorouter', idVideogame.length);

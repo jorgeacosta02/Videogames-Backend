@@ -16,4 +16,3 @@ module.exports = (sequelize) => {
 };
 
 const basename = path.basename(__filename);
-console.log('basename en genre',basename);

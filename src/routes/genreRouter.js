@@ -1,6 +1,6 @@
 const express = require('express');
-const getAllGenres = require('./genreControllers/genreGetAllController');
-const postGenres = require('./genreControllers/genrePostController');
+const getAllGenres = require('./genreControllers/genreGetAllController.js');
+const postGenres = require('./genreControllers/genrePostController.js');
 
 const genreRouter = express.Router();
 

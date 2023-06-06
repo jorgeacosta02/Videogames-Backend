@@ -6,7 +6,7 @@ const postVideogame = require('./videogameControllers/videogamePostController');
 
 const videoRouter = express.Router();
 
-videoRouter.get('/', getAllVideogames);
+videoRouter.get('/', cors(), getAllVideogames);
 
 videoRouter.get('/:idVideogame', cors(), getVideogameById);
 

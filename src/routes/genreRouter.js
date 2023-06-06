@@ -1,12 +1,12 @@
 const express = require('express');
 const getAllGenres = require('./genreControllers/genreGetAllController');
-const postGenre = require('./genreControllers/genrePostController');
+const postGenres = require('./genreControllers/genrePostController');
 
 const genreRouter = express.Router();
 
 genreRouter.get('/', getAllGenres);
 
-genreRouter.post('/', postGenre);
+genreRouter.post('/', postGenres);
 
 
 module.exports = genreRouter;

@@ -1,7 +1,6 @@
 const { Videogame, Genre } = require('../../db');
 const { Op } = require('sequelize');
 
-console.log('por entrar a videoRouter');
 
 const getAllVideogames = async (req, res) => {
   console.log('iniciando videogameRouter');

@@ -16,9 +16,9 @@ const sequelize = new Sequelize(DB_DEPLOY, {
   logging: false,
   native: false,
   dialectOptions:{
-    ssl:{
-      require: true,
-    },
+    // ssl:{
+    //   require: true,
+    // },
   },
 });
 
